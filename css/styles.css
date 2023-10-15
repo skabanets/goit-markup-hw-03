@@ -1,0 +1,160 @@
+:root {
+  --primary-background: #ffffff;
+  --dark-background: #2e2f42;
+  --secondary-background: #f4f4fd;
+
+  --primary-text: #2e2f42;
+  --ordinary-text: #434455;
+  --secondary-text: #ffffff;
+  --light-text: #f4f4fd;
+  --blue-text: #4d5ae5;
+
+  --active-link: #404bbf;
+
+  --primary-button: #4d5ae5;
+  --active-button: #404bbf;
+  --ordinary-button: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--ordinary-text);
+  background-color: var(--primary-background);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--blue-text);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--active-link);
+}
+
+.studio-logo {
+  color: var(--primary-text);
+}
+
+.studio-logo-footer {
+  color: var(--light-text);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.info-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--ordinary-text);
+}
+
+.main-section {
+  background-color: var(--dark-background);
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.main-button {
+  background-color: var(--primary-button);
+  color: var(--secondary-text);
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--active-button);
+}
+
+.filter-button {
+  background-color: var(--ordinary-button);
+  color: var(--blue-text);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--active-button);
+  color: var(--secondary-text);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
+}
+
+.ordinary-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--ordinary-text);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text);
+}
+
+.team-section {
+  background-color: var(--secondary-background);
+}
+
+.team-member-card {
+  background-color: var(--primary-background);
+}
+
+.footer {
+  background-color: var(--dark-background);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--light-text);
+  letter-spacing: 0.02em;
+}
